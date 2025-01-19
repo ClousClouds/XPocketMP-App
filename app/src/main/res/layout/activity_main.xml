@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/start_server_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start XPocketMP Server" />
+
+    <Button
+        android:id="@+id/open_file_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open File Manager" />
+
+    <TextView
+        android:id="@+id/console_output"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:text="Console output will appear here"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/console_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter command..." />
+</LinearLayout>
