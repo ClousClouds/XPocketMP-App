@@ -27,7 +27,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.github.arteaprogramar:Android_MaterialFilePicker:version'
+    implementation 'com.github.nbsp-team:MaterialFilePicker:a15b623a57'
     implementation 'com.github.nbsp:material-file-picker:1.9.1'  // File picker library
     implementation 'com.termux:termux-shared:0.114'  // Termux shared library for running commands
     implementation 'com.android.support:appcompat-v7:28.0.0'  // AppCompat for backward compatibility
