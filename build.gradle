@@ -23,6 +23,12 @@ allprojects {
         mavenCentral()
         jcenter()
         maven { url 'https://jitpack.io' }
-        maven { url 'https://maven.pkg.github.com/termux/termux-app' }
+        maven {
+        url = uri("https://maven.pkg.github.com/termux/termux-app")
+             credentials {
+                 username = project.findProperty("gpr.user") ?: System.getenv("GITHUB_USERNAME")
+                 password = project.findProperty("gpr.key") ?: System.getenv("GITHUB_TOKEN")
+             }
+        }
     }
 }
