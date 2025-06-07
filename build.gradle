@@ -2,6 +2,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        jcenter()
         maven { url 'https://jitpack.io' }
         maven { url 'https://maven.pkg.github.com/termux/termux-app' }
     }
@@ -14,6 +15,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter()
         maven { url 'https://jitpack.io' }
         maven { url 'https://maven.pkg.github.com/termux/termux-app' }
     }
